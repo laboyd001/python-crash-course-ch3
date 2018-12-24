@@ -1,0 +1,25 @@
+#This program demos the use of sort, sorted, and reverse for organzing py list data
+
+places = ['india', 'alaska', 'wyoming', 'montana', 'hawaii']
+print(places)
+print("\nHere is the list sorted:")
+print(sorted(places))
+print("\nHere is the original list")
+print(places)
+print("\nHere is the reverse order")
+print(sorted(places, reverse=True))
+print("\nHere is the original list again:")
+print(places)
+print("\nHere is the reverse order:")
+places.reverse()
+print(places)
+print("\nHere's the original order:")
+places.reverse()
+print(places)
+print("\nHere's the list is alphabetical order:")
+places.sort()
+print(places)
+print("\nHere's the list in reverse alphabetical order:")
+places.sort(reverse=True)
+print(places)
+
